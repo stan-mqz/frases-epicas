@@ -61,14 +61,6 @@ export function iniciar(root: HTMLElement): void {
           refrescar();
         }
         break;
-      case 'reiniciar':
-        if (confirm('Esto reemplaza todas las frases por las de ejemplo. ¿Continuar?')) {
-          reiniciar();
-          cargarForm(null);
-          avisar('Frases de ejemplo restauradas');
-          refrescar();
-        }
-        break;
     }
   });
 

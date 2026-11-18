@@ -47,7 +47,6 @@ export function montar(root: HTMLElement): void {
         </div>
         <p id="conteo" class="conteo" aria-live="polite"></p>
         <ul id="lista" class="lista"></ul>
-        <button type="button" class="btn btn-suave pie" data-action="reiniciar">Restaurar frases de ejemplo</button>
       </section>
     </main>
     <div id="aviso" class="aviso" role="status" aria-live="polite"></div>`;
